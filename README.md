@@ -4,6 +4,9 @@ This is an instruction set simulator (ISS) for the RV64I subset of the RISC-V in
 Developed as a project in univeristy.
 
 Build: `make all`
+Execute: `./rv64sim`
+`-v` verbose output
+`-c` cycle and instruction reporting enabled
 
 Supported CLI inputs: 
 
