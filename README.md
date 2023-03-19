@@ -3,10 +3,18 @@
 This is an instruction set simulator (ISS) for the RV64I subset of the RISC-V instruction set, including Zicsr extension instructions.
 Developed as a project in univeristy.
 
-Build: `make all`
-Execute: `./rv64sim`
-`-v` verbose output
-`-c` cycle and instruction reporting enabled
+To build:
+```
+make all
+```
+
+To execute: 
+```
+./rv64sim
+```
+
+`-v` for verbose output, 
+`-c` to enable cycle and instruction reporting
 
 Supported CLI inputs: 
 
